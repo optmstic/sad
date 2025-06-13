@@ -34,8 +34,8 @@ O pipeline de análise abrange desde a ingestão e limpeza dos dados brutos até
 ├── README.md                        # Este ficheiro de documentação.
 └── .gitignore                       # Ficheiros e pastas a ignorar pelo Git.
 
-Fluxo de Execução e Comandos Detalhados
----------------------------------------
+### Fluxo de Execução e Comandos Detalhados
+
 O script main.R orquestra a execução dos seguintes scripts R na ordem listada:
 
 1. R/01_install_packages.R
@@ -133,8 +133,8 @@ O script main.R orquestra a execução dos seguintes scripts R na ordem listada:
 * Pacotes Principais: shiny, dplyr, ggplot2.
 * Saída: O aplicativo Shiny será aberto (no painel Viewer do RStudio ou numa janela de navegador externa, dependendo das suas configurações). A consola R indicará o URL onde a aplicação está a correr (Listening on http://127.0.0.1:XXXX).
 
-Outputs e Resultados Finais
----------------------------
+### Outputs e Resultados Finais
+
 Após a execução bem-sucedida do main.R, os seguintes outputs principais estarão disponíveis no seu projeto:
 
 * data/processed/:
