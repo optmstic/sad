@@ -1,5 +1,41 @@
-Fluxo de Execução e Comandos Detalhados
+Projeto de Sistemas de Apoio à Decisão
 
+Análise e Previsão da Procura de Partilha de Bicicletas em Seul
+
+Visão Geral do Projeto
+----------------------
+Este projeto visa analisar os dados de partilha de bicicletas da cidade de Seul, Coreia do Sul, para compreender os padrões de procura e construir um modelo de previsão. Além disso, é desenvolvido um dashboard interativo em R Shiny para explorar os dados de forma visual.
+
+O pipeline de análise abrange desde a ingestão e limpeza dos dados brutos até à engenharia de features, modelagem preditiva e visualização interativa.
+
+Estrutura do Projeto
+--------------------
+.
+├── R/
+│   ├── main.R                       # Script principal que orquestra todo o workflow.
+│   ├── 01_install_packages.R        # Instala e carrega pacotes R necessários.
+│   ├── 02_web_scraping.R            # Realiza web scraping da Wikipedia para dados de sistemas de bike sharing.
+│   ├── 03_api_calls.R               # Faz chamadas à API OpenWeather para obter dados meteorológicos.
+│   ├── 04_load_data.R               # Carrega os datasets brutos para a memória.
+│   ├── 05_data_cleaning.R           # Limpeza e padronização dos dados brutos.
+│   ├── 06_eda_analysis.R            # Análise Exploratória de Dados (EDA) utilizando Tidyverse.
+│   ├── 07_eda_visualizations.R      # EDA com visualizações usando ggplot2.
+│   ├── 08_demand_forecasting.R      # Engenharia de features, treino e avaliação de modelos de previsão.
+│   └── 09_shiny_dashboard.R         # Cria e lança o aplicativo R Shiny Dashboard.
+├── data/
+│   ├── raw/                         # Contém os ficheiros de dados brutos originais.
+│   │   ├── SeoulBikeSharing.csv
+│   │   ├── bike_fleet_by_city.csv
+│   │   └── world_cities.csv
+│   └── processed/                   # Armazena os datasets limpos e processados.
+├── output/
+│   ├── plots/                       # Guarda os gráficos gerados pela EDA e modelagem.
+│   └── models/                      # Armazena os modelos de machine learning treinados.
+├── README.md                        # Este ficheiro de documentação.
+└── .gitignore                       # Ficheiros e pastas a ignorar pelo Git.
+
+Fluxo de Execução e Comandos Detalhados
+---------------------------------------
 O script main.R orquestra a execução dos seguintes scripts R na ordem listada:
 
 1. R/01_install_packages.R
@@ -98,7 +134,7 @@ O script main.R orquestra a execução dos seguintes scripts R na ordem listada:
 * Saída: O aplicativo Shiny será aberto (no painel Viewer do RStudio ou numa janela de navegador externa, dependendo das suas configurações). A consola R indicará o URL onde a aplicação está a correr (Listening on http://127.0.0.1:XXXX).
 
 Outputs e Resultados Finais
-
+---------------------------
 Após a execução bem-sucedida do main.R, os seguintes outputs principais estarão disponíveis no seu projeto:
 
 * data/processed/:
