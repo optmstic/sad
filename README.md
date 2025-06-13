@@ -10,7 +10,7 @@ O pipeline de análise abrange desde a ingestão e limpeza dos dados brutos até
 
 ### Estrutura do Projeto
 
-.
+'''.
 ├── R/
 │   ├── main.R                       # Script principal que orquestra todo o workflow.
 │   ├── 01_install_packages.R        # Instala e carrega pacotes R necessários.
@@ -32,7 +32,7 @@ O pipeline de análise abrange desde a ingestão e limpeza dos dados brutos até
 │   ├── plots/                       # Guarda os gráficos gerados pela EDA e modelagem.
 │   └── models/                      # Armazena os modelos de machine learning treinados.
 ├── README.md                        # Este ficheiro de documentação.
-└── .gitignore                       # Ficheiros e pastas a ignorar pelo Git.
+└── .gitignore                       # Ficheiros e pastas a ignorar pelo Git.'''
 
 ### Fluxo de Execução e Comandos Detalhados
 
