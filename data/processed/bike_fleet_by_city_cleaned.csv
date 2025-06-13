@@ -1,0 +1,48 @@
+country,city,bikes
+Portugal,Lisbon,700
+Portugal,Vilamoura,260
+Portugal,Torres Vedras,260
+Portugal,Vila do Conde,60
+Russia,Moscow,4300
+Russia,Saint Petersburg,NA
+Russia,Kazan,NA
+Russia,Almetyevsk,300
+Sweden,Stockholm,1000
+Sweden,Gothenburg,1000
+Switzerland,Zurich,350
+Switzerland,Lausanne,NA
+United Kingdom,London,NA
+United Kingdom,Glasgow,NA
+United Kingdom,Edinburgh,NA
+China,Beijing,205
+China,Shanghai,280000
+China,Guangzhou,705
+China,Hangzhou,84000
+China,Wenzhou,20000
+China,Xi'an,52000
+India,Delhi,NA
+India,Mumbai,NA
+India,Pune,NA
+India,Mysuru (Mysore),NA
+India,Bhubaneswar,2000
+Mexico,Mexico City,6500
+Mexico,Guadalajara,3200
+United States,New York City,6000
+United States,Chicago,16500
+United States,San Francisco,NA
+United States,Boston,NA
+United States,"Washington, D.C.",NA
+United States,Seattle,NA
+United States,Los Angeles,NA
+United States,Austin,NA
+United States,Portland,NA
+Brazil,Rio de Janeiro,NA
+Brazil,São Paulo,NA
+Brazil,Fortaleza,800
+Chile,Santiago,1882
+Australia,Brisbane,2000
+Australia,Sydney,NA
+Australia,Melbourne,NA
+Australia,Adelaide,NA
+New Zealand,Auckland,NA
+New Zealand,Christchurch,NA

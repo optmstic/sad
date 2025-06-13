@@ -1,0 +1,48 @@
+Country,City,Bikes
+Portugal,Lisbon,700.0
+Portugal,Vilamoura,260.0
+Portugal,Torres Vedras,260.0
+Portugal,Vila do Conde,60.0
+Russia,Moscow,4300.0
+Russia,Saint Petersburg,
+Russia,Kazan,
+Russia,Almetyevsk,300.0
+Sweden,Stockholm,1000.0
+Sweden,Gothenburg,1000.0
+Switzerland,Zurich,350.0
+Switzerland,Lausanne,
+United Kingdom,London,
+United Kingdom,Glasgow,
+United Kingdom,Edinburgh,
+China,Beijing,200000.0
+China,Shanghai,280000.0
+China,Guangzhou,700000.0
+China,Hangzhou,84000.0
+China,Wenzhou,20000.0
+China,Xi'an,52000.0
+India,Delhi,
+India,Mumbai,
+India,Pune,
+India,Mysuru (Mysore),
+India,Bhubaneswar,2000.0
+Mexico,Mexico City,6500.0
+Mexico,Guadalajara,3200.0
+United States,New York City,6000.0
+United States,Chicago,16500.0
+United States,San Francisco,
+United States,Boston,
+United States,"Washington, D.C.",
+United States,Seattle,
+United States,Los Angeles,
+United States,Austin,
+United States,Portland,
+Brazil,Rio de Janeiro,
+Brazil,São Paulo,
+Brazil,Fortaleza,800.0
+Chile,Santiago,1882.0
+Australia,Brisbane,2000.0
+Australia,Sydney,
+Australia,Melbourne,
+Australia,Adelaide,
+New Zealand,Auckland,
+New Zealand,Christchurch,
