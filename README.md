@@ -3,13 +3,13 @@
 ## Análise e Previsão da Procura de Partilha de Bicicletas em Seul
 
 ### Visão Geral do Projeto
---------------------------
+
 Este projeto visa analisar os dados de partilha de bicicletas da cidade de Seul, Coreia do Sul, para compreender os padrões de procura e construir um modelo de previsão. Além disso, é desenvolvido um dashboard interativo em R Shiny para explorar os dados de forma visual.
 
 O pipeline de análise abrange desde a ingestão e limpeza dos dados brutos até à engenharia de features, modelagem preditiva e visualização interativa.
 
 ### Estrutura do Projeto
---------------------
+
 .
 ├── R/
 │   ├── main.R                       # Script principal que orquestra todo o workflow.
