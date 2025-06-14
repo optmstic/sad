@@ -11,24 +11,24 @@ O pipeline de análise abrange desde a ingestão e limpeza dos dados brutos até
 ### Estrutura do Projeto
 ```
 .
-├── main.R                          # Script principal que orquestra todo o workflow.
+├── main.R                          # Script principal para o workflow.
 ├── R/
 │   ├── 01_install_packages.R        # Instala e carrega pacotes R necessários.
 │   ├── 02_web_scraping.R            # Realiza web scraping da Wikipedia para dados de sistemas de bike sharing.
 │   ├── 03_api_calls.R               # Faz chamadas à API OpenWeather para obter dados meteorológicos.
 │   ├── 04_load_data.R               # Carrega os datasets brutos para a memória.
-│   ├── 05_data_cleaning.R           # Limpeza e padronização dos dados brutos.
-│   ├── 06_eda_analysis.R            # Análise Exploratória de Dados (EDA) utilizando Tidyverse.
-│   ├── 07_eda_visualizations.R      # EDA com visualizações usando ggplot2.
-│   ├── 08_demand_forecasting.R      # Engenharia de features, treino e avaliação de modelos de previsão.
-│   └── 09_shiny_dashboard.R         # Cria e lança o aplicativo R Shiny Dashboard.
+│   ├── 05_data_cleaning.R           # Limpeza e padronização dos dados.
+│   ├── 06_eda_analysis.R            # Análise Exploratória de Dados (EDA).
+│   ├── 07_eda_visualizations.R      # EDA com visualizações.
+│   ├── 08_demand_forecasting.R      # treino e avaliação de modelos de previsão.
+│   └── 09_shiny_dashboard.R         # Aplicação R Shiny Dashboard.
 ├── data/
 │   ├── raw/                         # Contém os ficheiros de dados brutos originais.
 │   └── processed/                   # Armazena os datasets limpos e processados.
 ├── output/
 │   ├── plots/                       # Guarda os gráficos gerados pela EDA e modelagem.
 │   └── models/                      # Armazena os modelos de machine learning treinados.
-└── README.md                        # Este ficheiro de documentação.
+└── README.md
 ```
 ### Fluxo de Execução e Comandos Detalhados
 
