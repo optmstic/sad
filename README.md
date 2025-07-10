@@ -15,16 +15,16 @@ Using R, APIs, and machine learning, this end-to-end solution includes:
 The goal is to simulate a real business scenario where a city planner or transportation company could use the dashboard to monitor and anticipate demand, improving service efficiency.
 
 ### 🧱 Folder Structure
+```text
 .
 ├── main.R # Pipeline controller
 ├── R/ # Scripts for scraping, API, cleaning, EDA, modeling
-├── data/
-│ ├── raw/ # Raw datasets
-│ └── processed/ # Cleaned datasets
-├── output/
-│ ├── plots/ # Graphical outputs
-│ └── models/ # Trained ML models
+├── data/raw/ # Raw datasets
+├── data/processed/ # Cleaned datasets
+├── output/plots/ # Graphical outputs
+├── output/models/ # Trained ML models
 └── README.md
+```
 
 ### 📊 Results
 
