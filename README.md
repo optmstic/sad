@@ -1,6 +1,4 @@
-# Decision Support Systems Project
-
-# IBM Data Analyst Capstone Project
+# Decision Support Systems Project - IBM Data Analyst Capstone Project
 
 ## 🚲 Demand Forecasting for Seoul's Bicycle-Sharing System
 
@@ -20,10 +18,12 @@ The goal is to simulate a real business scenario where a city planner or transpo
 .
 ├── main.R # Pipeline controller
 ├── R/ # Scripts for scraping, API, cleaning, EDA, modeling
-├── data/raw/ # Raw datasets
-├── data/processed/ # Cleaned datasets
-├── output/plots/ # Graphical outputs
-├── output/models/ # Trained ML models
+├── data/
+│ ├── raw/ # Raw datasets
+│ └── processed/ # Cleaned datasets
+├── output/
+│ ├── plots/ # Graphical outputs
+│ └── models/ # Trained ML models
 └── README.md
 
 ### 📊 Results
