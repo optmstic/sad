@@ -23,6 +23,7 @@ The goal is to simulate a real business scenario where a city planner or transpo
 ├── data/processed/ # Cleaned datasets
 ├── output/plots/ # Graphical outputs
 ├── output/models/ # Trained ML models
+├── DecissionSS_report.pdf # Data report
 └── README.md
 ```
 
